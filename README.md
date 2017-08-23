@@ -1,6 +1,9 @@
+ Below, we show how to load and replay the hand motion data from the Spatial Description Corpus. The data is available [here](https://pub.uni-bielefeld.de/data/2913177)
 
 ### Install Mumodo to load hand motion data
 To load the hand motion data, you need a python package: “**mumodo: MUltiMOdal DOcument - import, analyze, plot and manage multimodal data**”. Its documents and source code are available in the GitHub repository: https://github.com/dsg-bielefeld/mumodo.git. Please follow the instruction to install the package.
+
+After intalling mumodo, you can use the notebook in the code folder to load the data.
 
 
 ### Replay hand motion data
