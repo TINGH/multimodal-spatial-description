@@ -20,7 +20,7 @@ With [InstantReality](http://www.instantreality.org/) and [Venice](https://githu
 2. Navigate to the folder where `leap.x3d` and `leap.xml` are located.
 3. open a terminal window, run following command to replay the data: `java -jar VeniceHub.jar -i Disk -o IIO -f file.xio.gz`. Then you can see one or two hands in the window of the Instant Player.
 
- *For more information of how to use Venice, please refer to the manual in the github repository or write to ting.han[AT]uni-bielefeld.de*
+ *For more information of how to use Venice, please refer to the manual in the github repository or write to Ting Han or David Schlangen. Eamil address: firstname.lastname[AT]uni-bielefeld.de*.
  
  
 ### Hand motion features
@@ -28,7 +28,7 @@ With [InstantReality](http://www.instantreality.org/) and [Venice](https://githu
 The hand motion data in the Spatial Description Corpus was logged with the Leap SDK v2.3.1. 
 
 - For each dataframe, it provides:
-  -  `FrameID`:   integer, a unique ID assigned to this data frame.
+  -  ``FrameID``:   integer, a unique ID assigned to this data frame.
   -  `HandNum` : integer, the number of tracked hands
 
 - For each hand
@@ -61,5 +61,5 @@ The hand motion data in the Spatial Description Corpus was logged with the Leap 
   - `NextJoint`: 3-d vector, the position of the end of the bone closest to the finger tip.
   - `Length`: float, the length of the bone in millimeters.
 
- - `Angles between bones` float. For example, MetaProxAngle is computed according to the vectors of metacarpal bone and proximal bone.
- - `Angles between fingers`:  float. For example, thumbIndexAngle is computed according to vectors of thumb and index finger.
+ - `Angles between bones` float, for example, MetaProxAngle is computed according to the vectors of metacarpal bone and proximal bone.
+ - `Angles between fingers`:  float, for example, thumbIndexAngle is computed according to vectors of thumb and index finger.
